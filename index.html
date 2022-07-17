@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+ 	<title>Frontend Mentor | Tip calculator app</title>
+
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+ 	<style>
+    	.attribution { display: none ;font-size: 13px; text-align: center; position: absolute; bottom: 0px; width: 100%; background-color: black; padding: 5px; font-family: arial, sans-serif; color: white}
+    	.attribution a { color: hsl(228, 45%, 44%); }
+ 	</style>
+</head>
+<body>
+
+	<main>
+		<div id="logo-container">
+			<img id="logo" src="./images/logo.svg">
+		</div>
+		<div id="container">
+			<div id="interface">
+				<div id="bill-container">
+					<h6 class="labels">Bill</h6>
+					<div class="input-container">
+						<img src="./images/icon-dollar.svg">
+						<input id="bill-input" class="input" type="number" name="bill" placeholder="0.00">
+					</div>
+				</div>
+
+				<div id="select-tip-container">
+				  	<h6 class="labels">Select Tip %</h6>
+				  	<div id="buttons-grid">
+				  		<div class="btn-grid-item">
+					  		<button class="percent-btn" data-percent="5">5%</button>
+					  	</div>
+					  	<div class="btn-grid-item">
+					 		<button class="percent-btn" data-percent="10">10%</button>
+					 	</div>
+					 	<div class="btn-grid-item">
+					 		<button class="percent-btn" data-percent="15">15%</button>
+					 	</div>
+					 	<div class="btn-grid-item">
+					 		<button class="percent-btn" data-percent="25">25%</button>
+					 	</div>
+					 	<div class="btn-grid-item">
+					 		<button class="percent-btn" data-percent="50">50%</button>
+					 	</div>
+					 	<div class="btn-grid-item">
+					  		<input id="custom-btn" class="percent-btn" type="number" min="1" max="100" placeholder="Custom">
+					  	</div>
+				  	</div>
+				</div>
+
+				<div id="number-of-people-container">
+					<div id="labels-input">
+			  			<h6 class="labels">Number of People</h6>
+			  			<span id="number-error" class="labels">Can't be zero</span>
+				  	</div>
+			  		<div id="peoples-number-container" class="input-container">
+			  			<img src="./images/icon-person.svg">
+			  			<input id="peoples-input" class="input" type="number" name="peoples" placeholder="0">
+			  		</div>
+			  	</div>
+			</div>
+
+			<div id="result">
+				<div id="sla">
+					<div class="result-container">
+						<div class="text-result-container">
+				 			<p class="result-title">Tip Amount</p>
+				  			<small class="span-subtitle">/ person</small>
+					  	</div>
+					  	<p id="tip-amount" class="tip-result">$0.00</p>
+					</div>
+
+					<div class="result-container">
+						<div class="text-result-container">
+				  			<p class="result-title">Total</p>
+				  			<small class="span-subtitle">/ person</small>
+				  		</div>
+				  		<p id="total" class="tip-result">$0.00</p>
+				  	</div>
+				</div>
+
+		  		<button id="reset-btn">Reset</button>
+		  	</div>
+  
+		</div>
+	</main>
+	
+	<footer>
+	 	<div class="attribution">
+	    	Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend 	Mentor</a>. 
+	   		Coded by <a href="https://github.com/thalesmariiano">Thales Mariano</a>.
+	  	</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
