@@ -3,7 +3,7 @@
 A working Tip Calculator made for one of the Front-End Mentor challenges
 
 ## Preview site:
-https://tip-calculator-app-front-end-mentor.netlify.app/
+https://tip-calculator-app-thales-mariano-front-end-mentor.netlify.app/
 
 ## Made with:
 - HTML5
