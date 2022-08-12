@@ -1,11 +1,14 @@
 # Tip-Calculator-App
 
-A working Tip Calculator made for one of the Front-End Mentor challenges
+Uma calculadora de gorjeta (Tip calculator). Feita para um dos desafios das Front-End Mentor.
+-
+Foi interessante fazer essa calculadora, tive que estudar coisas novas sobre porcetagem com javascript.
+-
 
 ## Preview site:
 https://tip-calculator-app-thales-mariano-front-end-mentor.netlify.app/
 
-## Made with:
+## Tecnologias usadas:
 - HTML5
 - CSS3
 - Javascript
